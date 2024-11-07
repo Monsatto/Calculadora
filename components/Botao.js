@@ -40,7 +40,7 @@ const estilos = StyleSheet.create({
         width: width/4 * 3
     },
     botaoOperacao: {
-        backgroundColor: 'purple',
+        backgroundColor: '#483D8B',
         color: 'white'
     }
 })

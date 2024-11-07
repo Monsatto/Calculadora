@@ -1,10 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native';
 import Botao from './components/Botao';
+import Visor from './components/Visor';
 
 export default function App() {
   return (
     <View style={styles.container}>
-
+      <Visor />
       <View style={styles.botoes}>
 
         <Botao label="AC" triplo/>
